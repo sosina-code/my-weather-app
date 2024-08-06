@@ -11,13 +11,21 @@ function refreshWeather(response) {
 
 
     cityElement.innerHTML = response.data.city;
-    timeElement.innerHTML = `${date.getDay()}, ${date.getHours()}:${date.getMinutes()}`;
+    timeElement.innerHTML = formatDate(date);
     descriptionElement.innerHTML=response.data.condition.description;
     humidityElement.innerHTML=`${response.data.temperature.humidity}%`;
     temperatureElement.innerHTML = Math.round(temperature);
     windSpeedElement.innerHTML=`${response.data.wind.speed}km/hr`;
 }
-
+function formatDate(date) {
+    let minutes = date.getMinutes();
+    let hours = date.getHours();
+    let days =[
+        "sunday", "monday", "tueday", "wednesday", "thuresday", "friday", "saturday",
+    ];
+    let day = days[date.getDay()];
+    return`${day}, ${hours}:${miutes}`;
+}
 
 function searchCity(city) {
 let apiKey = "b2a5adcct04b33178913oc335f405433";
