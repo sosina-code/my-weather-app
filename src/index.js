@@ -21,7 +21,7 @@ function formatDate(date) {
     let minutes = date.getMinutes();
     let hours = date.getHours();
     let days =[
-        "sunday", "monday", "tueday", "wednesday", "thuresday", "friday", "saturday",
+        "sunday", "monday", "tuesday", "wednesday", "thuresday", "friday", "saturday",
     ];
     let day = days[date.getDay()];
     return`${day}, ${hours}:${minutes}`;
