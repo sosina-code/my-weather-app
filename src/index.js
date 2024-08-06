@@ -1,3 +1,10 @@
+function handleSearchSubmit(event){
+    event.preventDefault();
+}
+
+
+
+
 
 let searchFormElement = document.querySelector("#search-form");
-console.log(searchFormElement);
+searchFormElement.addEventListener("submit" , handleSearchSubmit);
