@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
@@ -15,15 +18,22 @@
         </form>
     </header>
     <main>
-    <h1>
+        <div class="weather-app-data">
+            <div>
+    <h1 class="weather-app-city">
     paris
     </h1>
-    <p>
+    <p class="weather-app-details">
         Tuesday 14:55 , scattered clouds
         <br>
-        Humidity:66% , Wind speed:33.3km/h
+        Humidity:<strong>66%</strong>, Wind speed:<strong>33.4 km/h</strong>
     </p>
-    <div>🌤️ 12°C </div>
+    </div>
+    <div>
+        <div class="weather-app-icon" >🌤️</div>
+        <div class="weather-app-temperature" >12</div>
+        <div class="weather-app-value">°C</div>
+    </div>
     </main>
     <footer>
         coded by<a href="https://github.com/sosina-code">sosina-code</a>, code hosted on <a href="https://github.com/sosina-code/my-weather-app">github</a>
