@@ -24,7 +24,7 @@ function formatDate(date) {
         "sunday", "monday", "tueday", "wednesday", "thuresday", "friday", "saturday",
     ];
     let day = days[date.getDay()];
-    return`${day}, ${hours}:${miutes}`;
+    return`${day}, ${hours}:${minutes}`;
 }
 
 function searchCity(city) {
