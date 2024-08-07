@@ -85,15 +85,5 @@ footer {
     color: rgba(0 0 0 0.6);
     margin-top: 100px;
 }
-.weather-forecast{
-    position: fixed;
-    display: flex;
-    margin-top: 120px;
-}
-.weather-forecast-one{
-    position: fixed;
-    display: flex;
-    margin-top: 120px;
 
-}
 
