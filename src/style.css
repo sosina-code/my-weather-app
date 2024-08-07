@@ -89,32 +89,32 @@ footer {
 .weather-forecast{
     position: fixed;
     margin-top: 130px;
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
     
 }
 .weather-day{
     position: fixed;
     margin-top: 150px;
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
 }
 .weather-one{
     position: fixed;
     margin-top: 170px;
-
+    display: inline-block;
     justify-content: space-around;
    position: fixed;
 }
 .weather-two{
     position: fixed;
     margin-top: 190px;
-
+    display: inline-block;
     justify-content: space-around;
 }
 .weather-ten{
     position: fixed;
     margin-top: 210px;
-    
+    display: inline-block;
     justify-content: space-around;
 }
