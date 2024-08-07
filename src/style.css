@@ -86,17 +86,3 @@ footer {
     margin-top: 60px;
 }
 
-.weather-forecast{
-    position: fixed;
-    margin-top: 120px;
-    display: flex;
-    justify-content: space-around;
-}
-.weather-forecast-icon{
-    font-size: 38px;
-}
-.weather-forecast-temperature{
-    color: red;
-    display:flex;
-    padding: 0 10px;
-}
