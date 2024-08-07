@@ -93,6 +93,9 @@ justify-content: space-around;
 list-style-type: none;
 }
 li{
-    margin-right: 10px;
+    margin-right: 30px;
+}
+.weather{
+    display: flex;
 }
    
