@@ -88,7 +88,7 @@ footer {
 .weather-forecast{
     
     display:inline-block;
-    
+    position: fixed;
     list-style-type: none;
 }
 
