@@ -88,8 +88,14 @@ footer {
 
 .weather-forecast{
     position: fixed;
-    margin-top: 120px;
+    margin-top: 130px;
     display: flex;
     justify-content: space-around;
     
+}
+.weather-day{
+    position: fixed;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
 }
