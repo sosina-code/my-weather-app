@@ -90,4 +90,10 @@ footer {
     display: flex;
     margin-top: 120px;
 }
+.weather-forecast-one{
+    position: fixed;
+    display: flex;
+    margin-top: 120px;
+
+}
 
