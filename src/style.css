@@ -87,8 +87,9 @@ footer {
 }
 ul{
     position: fixed;
-    display: flex;
+    display:inline-block;
     margin-top: 140px;
+    list-style-type: none;
 }
 
 
