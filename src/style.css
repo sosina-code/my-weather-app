@@ -86,3 +86,10 @@ footer {
     margin-top: 60px;
 }
 
+.weather-forecast{
+    position: fixed;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    
+}
