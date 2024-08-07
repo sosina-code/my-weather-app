@@ -85,5 +85,5 @@ footer {
 }
 
 .weather-forecast{
-    position: relative;
+    position: fixed;
 }
