@@ -86,4 +86,5 @@ footer {
 
 .weather-forecast{
     position: fixed;
+    margin-top: 90px;
 }
