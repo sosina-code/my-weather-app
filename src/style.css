@@ -95,7 +95,7 @@ footer {
 }
 .weather-day{
     position: fixed;
-    margin-top: 130px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
 }
