@@ -99,3 +99,22 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+.weather-one{
+    position: fixed;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+   position: fixed;
+}
+.weather-two{
+    position: fixed;
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-around;
+}
+.weather-ten{
+    position: fixed;
+    margin-top: 210px;
+    display: flex;
+    justify-content: space-around;
+}
